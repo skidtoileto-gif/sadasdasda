@@ -1,0 +1,14 @@
+name: RainbowColors
+version: 1.0.0
+main: com.example.rainbow.RainbowPlugin
+api-version: '1.21'
+description: Every player gets a rainbow color with passive powers, an unlockable ability, and color mixing.
+commands:
+  color:
+    description: View your color, cast your ability, or manage colors.
+    usage: /color [info|ability|recipe]
+    aliases: [rainbow]
+permissions:
+  rainbow.admin:
+    description: Allows /color set, unlock, reset and vial.
+    default: op

@@ -1,0 +1,33 @@
+# Give a new random color every time a player respawns?
+# (This resets their progress, unlocked ability and mixes.)
+reassign-on-respawn: false
+
+# How many extra colors a player can mix into their own.
+max-mixes: 1
+
+# How much "progress" is needed to unlock each color's ability.
+#   RED    - hostile mobs killed
+#   ORANGE - ores mined
+#   YELLOW - blocks travelled
+#   GREEN  - fully grown crops harvested
+#   BLUE   - fish caught
+#   INDIGO - experience level reached
+#   VIOLET - items enchanted
+unlock-requirements:
+  RED: 25
+  ORANGE: 40
+  YELLOW: 3000
+  GREEN: 150
+  BLUE: 15
+  INDIGO: 20
+  VIOLET: 5
+
+# Ability cooldowns in seconds.
+cooldowns:
+  RED: 30
+  ORANGE: 60
+  YELLOW: 20
+  GREEN: 45
+  BLUE: 25
+  INDIGO: 8
+  VIOLET: 40
